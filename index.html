@@ -134,6 +134,8 @@
       const setInvitation = (datas) => {
         // Set Persons
         let invitation = "";
+        let bottomPosition = -60;
+        let bottomPositionAddition = -703;
 
         for (let index = 0; index < datas.persons.length; index++) {
           //   console.log(datas.persons[index].rt);
@@ -153,13 +155,13 @@
             </div>
             <div class="row mt-4">
               <div class="col">
-                <p>Kepada Yth.</p>
+                <p class="m-0">Kepada Yth.</p>
                 <p>${datas.persons[index].lists[j]} (RT ${datas.persons[index].rt})</p>
               </div>
             </div>
             <div class="row mt-4">
               <div class="col">
-                <p>Bismillah</p>
+                <p class="m-0">Bismillah</p>
                 <p>Mengharap kehadiran Bapak/Ibu/Saudara pada:</p>
                 <table class="table table-borderless">
                   <tbody>
@@ -195,12 +197,17 @@
             </div>
             <div class="row mt-4">
               <div class="col">
-                <p>Sekretaris</p>
-                <p class="mt-5 secretary">Nama Sekre</p>
+                            <p>Sekretaris</p>
+                            <img class="position-relative" width="50" src="signature.png" alt="signature">
+                        <p class="secretary">Fulan</p>
+                
               </div>
             </div>
           </div>
         </div>`;
+            if (j % 2 > 0) {
+              bottomPosition = bottomPosition + bottomPositionAddition;
+            }
           }
         }
         invitationBody.innerHTML = invitation;
@@ -227,7 +234,7 @@
           element.innerHTML = datas.secretary;
         });
 
-        window.print();
+        // window.print();
       };
     </script>
   </body>
