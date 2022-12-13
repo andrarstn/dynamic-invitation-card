@@ -45,6 +45,7 @@
       .printable {
         page-break-after: always;
         padding: 1cm;
+        display: block;
       }
       .no_print {
         display: none;
@@ -52,6 +53,9 @@
     </style>
   </head>
   <body class="paper">
+    <button onclick="window.print()" class="btn btn-success no_print">
+      Print
+    </button>
     <div class="row" id="invitation">
       <!-- <div class="col-6">
           <div class="container">
@@ -160,22 +164,22 @@
                 <table class="table table-borderless">
                   <tbody>
                     <tr>
-                      <td>Hari/Tanggal</td>
+                      <td class="ps-4">Hari/Tanggal</td>
                       <td>:</td>
                       <td class="event-date">Rabu, 17 Desember 2022</td>
                     </tr>
                     <tr>
-                      <td>Jam</td>
+                      <td class="ps-4">Jam</td>
                       <td>:</td>
                       <td class="event-time">Ba'da Isya</td>
                     </tr>
                     <tr>
-                      <td>Tempat</td>
+                      <td class="ps-4">Tempat</td>
                       <td>:</td>
                       <td class="event-place">Masjid Darussalam</td>
                     </tr>
                     <tr>
-                      <td>Acara</td>
+                      <td class="ps-4">Acara</td>
                       <td>:</td>
                       <td class="event-agenda">Rapat Persiapan Ramadhan</td>
                     </tr>
@@ -223,7 +227,9 @@
           element.innerHTML = datas.secretary;
         });
 
-        window.print();
+        // setTimeout(() => {
+        //   window.print();
+        // }, 5000);
       };
     </script>
   </body>
