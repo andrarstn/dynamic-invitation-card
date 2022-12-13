@@ -1,0 +1,113 @@
+{
+    "secretary" : "Fulan",
+    "event": {
+        "date": "Sabtu, 3 Desember 2022",
+        "time": "19:30 - Selesai",
+        "place": "Masjid Darussalam",
+        "agenda": "Rapat Persiapan Ramadhan"
+    },
+    "persons": [
+        {
+            "rt": "03",
+            "lists": [
+                "Bapak A",
+                "Bapak B",
+                "Bapak C",
+                "Bapak A",
+                "Bapak B",
+                "Bapak C",
+                "Bapak A",
+                "Bapak B",
+                "Bapak C",
+                "Bapak A",
+                "Bapak B",
+                "Bapak C",
+                "Bapak A",
+                "Bapak B",
+                "Bapak C",
+                "Bapak A",
+                "Bapak B",
+                "Bapak C",
+                "Bapak D"
+            ]
+        },
+        {
+            "rt": "04",
+            "lists": [
+                "Bapak E",
+                "Bapak F",
+                "Bapak G",
+                "Bapak E",
+                "Bapak F",
+                "Bapak G",
+                "Bapak E",
+                "Bapak F",
+                "Bapak G",
+                "Bapak E",
+                "Bapak F",
+                "Bapak G",
+                "Bapak E",
+                "Bapak F",
+                "Bapak G",
+                "Bapak E",
+                "Bapak F",
+                "Bapak G",
+                "Bapak E",
+                "Bapak F",
+                "Bapak G",
+                "Bapak E",
+                "Bapak F",
+                "Bapak G",
+                "Bapak H"
+            ]
+        },
+        {
+            "rt": "05",
+            "lists": [
+                "Bapak I",
+                "Bapak J",
+                "Bapak K",
+                "Bapak I",
+                "Bapak J",
+                "Bapak K",
+                "Bapak I",
+                "Bapak J",
+                "Bapak K",
+                "Bapak I",
+                "Bapak J",
+                "Bapak K",
+                "Bapak I",
+                "Bapak J",
+                "Bapak K",
+                "Bapak I",
+                "Bapak J",
+                "Bapak K",
+                "Bapak L"
+            ]
+        },
+        {
+            "rt": "06",
+            "lists": [
+                "Bapak M",
+                "Bapak N",
+                "Bapak O",
+                "Bapak M",
+                "Bapak N",
+                "Bapak O",
+                "Bapak M",
+                "Bapak N",
+                "Bapak O",
+                "Bapak M",
+                "Bapak N",
+                "Bapak O",
+                "Bapak M",
+                "Bapak N",
+                "Bapak O",
+                "Bapak M",
+                "Bapak N",
+                "Bapak O",
+                "Bapak P"
+            ]
+        }
+    ]
+}
