@@ -126,8 +126,8 @@
 
     <script>
       const invitationBody = document.querySelector("#invitation");
-
-      fetch("http://127.0.0.1:5500/data.json")
+      const URL = "https://andrarstn.github.io/dynamic-invitation-card/";
+      fetch(`${URL}data.json`)
         .then((response) => response.json())
         .then((result) => setInvitation(result));
 
@@ -136,9 +136,9 @@
         let invitation = "";
 
         for (let index = 0; index < datas.persons.length; index++) {
-          console.log(datas.persons[index].rt);
+          //   console.log(datas.persons[index].rt);
           for (let j = 0; j < datas.persons[index].lists.length; j++) {
-            console.log(datas.persons[index].lists[j]);
+            // console.log(datas.persons[index].lists[j]);
             invitation =
               invitation +
               `<div class="col-6 mb-0 printable">
